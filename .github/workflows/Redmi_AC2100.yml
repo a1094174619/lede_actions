@@ -26,7 +26,7 @@ env:
   REPO_BRANCH: master
   COMMIT_NUMBER: 80c47d3476f2f0d117c1c9f1d7d0dd8191aed1bc
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config
+  CONFIG_FILE: .redmiconfig
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
