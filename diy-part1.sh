@@ -19,4 +19,5 @@
 git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 git clone https://github.com/kenzok8/small.git  package/openwrt-small
 
-export GOPROXY=https://proxy.golang.org,direct
+#export GOPROXY=https://proxy.golang.org,direct
+export GOPROXY=https://goproxy.io,direct
