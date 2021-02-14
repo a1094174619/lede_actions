@@ -16,10 +16,10 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
-#git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
-#git clone https://github.com/kenzok8/small.git  package/openwrt-small
-#
-git clone https://github.com/fw876/helloworld.git package/lean/helloworld
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/kenzok8/small.git  package/openwrt-small
+
+#git clone https://github.com/fw876/helloworld.git package/lean/helloworld
 
 sed -i "s/DEVICE_PACKAGES := kmod-mt7603e kmod-mt7615d luci-app-mtwifi uboot-envtools/DEVICE_PACKAGES := kmod-mt7603 kmod-mt7615e wpad-openssl uboot-envtools/g"  ./target/linux/ramips/image/mt7621.mk
 #修改redmi ac2100闭源驱动为开源驱动
